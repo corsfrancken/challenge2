@@ -1,0 +1,133 @@
+#alles {
+    background-image: linear-gradient(to bottom right, #37466B, #151827);
+    margin: 0;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    font-size: 20px;
+    height: 100%;
+    letter-spacing: 7px;
+}
+
+#titel {}
+
+#zonmaan {
+    background-color: white;
+    filter: blur(10px);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    animation: 20s pulsate infinite alternate ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        top: 40px;
+        left: 22%;
+        right: 75%;
+        z-index: 1;
+    }
+    
+    1% {
+        top: 40px;
+        left: 22%;
+        right: 75%;
+        z-index: -1;
+    }
+
+    33% {
+        top: 40px;
+        left: 75%;
+        right: 25%;
+        z-index: -1;
+    }
+    
+    34% {
+        top: 40px;
+        left: 75%;
+        right: 25%;
+        z-index: 1;
+    }
+
+    66% {
+        top: 40px;
+        left: 22%;
+        right: 75%;
+        z-index: 1;
+    }
+    
+    67% {
+        top: 40px;
+        left: 22%;
+        right: 75%;
+        z-index: -1;
+    }
+    
+    99% {
+        top: 40px;
+        left: 75%;
+        right: 25%;
+        z-index: -1;
+    }
+    
+    100% {
+        top: 40px;
+        left: 75%;
+        right: 25%;
+        z-index: 1;
+    }
+}
+
+#circle {
+    background-image: linear-gradient(to bottom right, #23293E, #3B4C76);
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 50px;
+    box-shadow: 27px 27px 70px #1F2537,
+        -27px -27px 70px #3e4D68;
+}
+
+#clock {
+    font-weight: 100;
+    font-size: 80px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.block {
+    background-image: linear-gradient(to bottom right, #32ABE1, #2369FF);
+    border-radius: 30px;
+    width: 600px;
+    height: 220px;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 0px 5px 25px #2788F7;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 13%;
+    font-size: 3em;
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 35%;
+}
+
+h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2em;
+    visibility: hidden;
+}
